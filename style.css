@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#page {
+	display: flex;
+}
+
+#page aside {
+	width: 30%;
+	background-color: #1679bb;
+	color: #ffffff;
+}
+
+#page aside img {
+	width: 15em;
+	bottom: 15em;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#page aside h3 {
+	background-color: #ffffff;
+	color: #e41b74;
+	text-align: center;
+	padding: 0.5em;
+}
+
+#page p.contact {
+	margin-left: 10%;
+	font-size: 1.2em;
+}
+
+#page main {
+	width: 70%;
+	color: #e41b74;
+}
