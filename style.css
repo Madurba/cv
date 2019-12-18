@@ -1,9 +1,73 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: helvetica neue;
+	line-height: 140%;
+}
+
+#titre {
+	text-transform: uppercase;
+	margin-left: 5%;
+	margin-top: 7%;
+	margin-bottom: 0%;
+	font-size: 56px;
+	font-weight: lighter;
+	border-bottom: none;
+	padding-bottom: 3%;
+}
+
+#sous-titre {
+	font-size: 28px;
+	padding-bottom: 2%;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-left: 5%;
+	margin-top: 7%;
+	font-size: 28px;
+	border-bottom: 2px solid #e41b74;
+	padding-bottom: 10px;
+	width: 91%;
+}
+
+h2 {
+	font-size: 25px;
+	margin-top: 0.2%;
+	margin-left: 5%;
+	width: 91%;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: lighter;
+	padding-bottom: 0.6%;
+	padding-top: 0.6%;
+}
+
+#name {
+	color: #e41b74;
+}
+
+#border1 {
+	border-bottom: 2px solid #e41b74;
+	padding-bottom: 5px;
+}
+
+
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e41b74;
+	text-decoration: underline;
 }
 
 #page {
+
 	display: flex;
 }
 
@@ -11,6 +75,7 @@ body {
 	width: 30%;
 	background-color: #1679bb;
 	color: #ffffff;
+	padding: 0;
 }
 
 #page aside img {
@@ -19,6 +84,8 @@ body {
 	border-radius: 50%;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 10%;
+	margin-bottom: 8%;
 	display: block;
 }
 
@@ -26,19 +93,100 @@ body {
 	background-color: #ffffff;
 	color: #e41b74;
 	text-align: center;
-	padding: 0.5em;
+	padding: 0.4em;
+	font-weight: bold;
 }
 
 #page p.contact {
 	margin-left: 10%;
+	margin-right: 10%;
 	font-size: 1.2em;
+}
+
+#page p#contact1 {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 1.2em;
+	text-align: justify;
 }
 
 #page main {
 	width: 70%;
-	color: #e41b74;
+	color: #1679bb;
 }
 
-a {
-	color: #ffffff;
+.content {
+	display: flex;
+}
+
+.content h2 {
+	margin-left: 0%;
+}
+
+.paragraphe1 {
+	width: 25%;
+	margin-left: 3%;
+}
+
+.paragraphe2 {
+	width: 68%;
+	margin-top: 1.5%;
+}
+
+.paragraphe2 h2 {
+	text-transform: uppercase;
+	margin-bottom: 0%;
+}
+
+.content2 {
+	display: flex;
+	margin-left: 5%;
+}
+
+.recommandation1 {
+	width: 50%;
+}
+
+.recommandation2 {
+	width: 50%;
+}
+
+.h3titre {
+	font-size: 20px;
+	margin-top: 0.7%;
+	margin-bottom: 0.7%;
+}
+
+.experience {
+	margin-top: 0.5%;
+}
+
+.titreformation {
+	margin-top: 15%;
+}
+
+.titreformation2 {
+	margin-top: 68%;
+}
+
+#icones {
+	display: flex;
+	justify-content: space-around;
+	margin-top: -5%;
+}
+
+.icone1, .icone2, .icone3 {
+	font-size: 300%;
+}
+
+.icone1 {
+	margin-right: -20%;
+}
+
+.icone2 {
+	margin-right: -20%;
+}
+
+.reco {
+	margin-bottom: 1.9%;
 }
