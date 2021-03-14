@@ -9,7 +9,6 @@ body {
 	text-transform: uppercase;
 	margin-left: 5%;
 	margin-top: 7%;
-	margin-bottom: 0%;
 	font-size: 56px;
 	font-weight: lighter;
 	border-bottom: none;
@@ -34,6 +33,7 @@ h1 {
 h2 {
 	font-size: 25px;
 	margin-top: 0.2%;
+	margin-bottom: 5%;
 	margin-left: 5%;
 	width: 91%;
 }
@@ -43,6 +43,10 @@ h3 {
 	font-weight: lighter;
 	padding-bottom: 0.6%;
 	padding-top: 0.6%;
+}
+
+i {
+	margin-right: 25px;
 }
 
 #name {
@@ -162,7 +166,7 @@ a:hover {
 }
 
 .titreformation {
-	margin-top: 15%;
+	margin-top: 5%;
 }
 
 .titreformation2 {
